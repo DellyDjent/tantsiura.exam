@@ -1,0 +1,70 @@
+.data-author {
+  overflow: hidden;
+  margin-top: 150px;
+  background-color: #e3eef0;
+  padding: 30px 0 30px 30px;
+  .author-img {
+    width: 17%;
+    float: left;
+  }
+  img {
+    border-radius: 111px;
+  }
+  .author-info {
+    padding-top: 30px;
+    float: right;
+    width: 80%;
+  }
+  .author-info-subhead {
+    font-family: Karla, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f7941d;
+  }
+  .name-author {
+    font-family: Karla, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #23282f;
+    display: inline-block;
+  }
+  .description-author {
+    color: #55595f;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+.comments-area {
+  clear: both;
+}
+
+.comment-form {
+  p {
+    overflow: hidden;
+  }
+  #author,
+  #email,
+  #url,
+  #comment {
+    background-color: #e3eef0;
+    border: none;
+    width: 405px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  label {
+    display: none;
+  }
+}
+
+.comment-reply-title,
+.comment-notes {
+  display: none;
+}

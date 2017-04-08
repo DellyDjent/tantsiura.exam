@@ -1,0 +1,101 @@
+.contact-section {
+  padding-top: 115px;
+  position: relative;
+  background: url("../../images/bg_footer.jpg") no-repeat;
+  .wrap-address {
+    width: 50%;
+    float: left;
+    h2 {
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 36px;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+    h6 {
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+    .address {
+      margin-bottom: 20px;
+    }
+    .phone {
+      display: block;
+      height: 25px;
+      padding-left: 45px;
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      background: url("../../images/vector-smart-object.png") no-repeat;
+    }
+    .add {
+      height: 35px;
+      padding-left: 45px;
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      background: url("../../images/vector-smart-object-s.png") no-repeat;
+    }
+  }
+  .contact-form {
+    padding-left: 25px;
+    width: 50%;
+    float: right;
+    .wpcf7-validates-as-required {
+      margin-bottom: 20px;
+      padding-left: 25px;
+      background-color: #f4f4f4;
+      border: none;
+      color: #777777;
+      width: 560px;
+      height: 60px;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+    }
+    .wpcf7-submit {
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      width: 180px;
+      height: 60px;
+      background-color: #ff4848;
+      border: none;
+      outline: none;
+      margin-top: 50px;
+    }
+    .text-area-main {
+      padding-left: 25px;
+      width: 560px;
+      height: 310px;
+      font-size: 18px;
+    }
+  }
+}
+
+.copyright-logo{
+  background-color: #17212a;
+  h2 {
+    text-align: center;
+    padding: 50px 0 30px;
+  }
+  .copyright-content {
+    padding: 30px;
+    background-color: #ff4848;
+    color: #fff;
+    font-family: Roboto, Arial, Tahoma sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+}

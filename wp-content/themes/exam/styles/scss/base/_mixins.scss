@@ -1,0 +1,19 @@
+@mixin font-bold () {
+  color: $Black;
+  font-weight: $Bold;
+}
+
+@mixin font-regular () {
+  color: $Black;
+  font-weight: $Regular;
+}
+
+@mixin word-logo () {
+  font-weight: $Bold;
+  font-family: $Font-stack;
+  text-transform: uppercase;
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

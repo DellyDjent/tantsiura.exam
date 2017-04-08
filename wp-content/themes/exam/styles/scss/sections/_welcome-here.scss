@@ -1,0 +1,35 @@
+.welcome-here {
+  overflow: hidden;
+  padding: 50px 0 0;
+  .wrap-welcome-here {
+    overflow: hidden;
+  }
+  .img-welcome-here {
+    overflow: hidden;
+    float: left;
+    width: 45%;
+    img {
+      float: right;
+    }
+  }
+  .content-welcome-here {
+    width: 50%;
+    float: right;
+    h2 {
+      color: #004966;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      /* Text style for "Welcome He" */
+      font-size: 36px;
+    }
+    .content-area {
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      /* Text style for "Lorem Ipsu" */
+      color: #004966;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.offering-section {
+  background-color: #004966;
+  padding: 100px 0;
+  .offering {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    h2 {
+      margin-bottom: 30px;
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 36px;
+      font-weight: 300;
+    }
+    h6 {
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  .list-offering {
+    margin-top: 80px;
+    @include display-flex;
+    @include flex-direction (row);
+    @include flex-wrap (wrap);
+    @include justify-content (space-between);
+    .list-offering-item {
+      background-position: top center;
+      padding-top: 190px;
+      text-align: center;
+    }
+  }
+  .offering-content {
+    h3 {
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .description {
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.clients-section {
+  padding: 60px 0 80px;
+  background-color: #ff4848;
+  .clients-subhead {
+    margin-bottom: 65px;
+  }
+    h2 {
+      text-align: center;
+      color: #fff;
+      font-family: Roboto, Arial, Tahoma sans-serif;
+      font-size: 36px;
+      font-weight: 300;
+  }
+  .item {
+    max-width: 200px;
+    img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+  }
+}
